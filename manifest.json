@@ -28,7 +28,7 @@
     }],
   "related_applications": [{
     "platform": "play",
-    "id": "com.android.chrome"
+    "id": "com.android.test"
   }],  
   "lang": "en-US",
   "start_url": "/index.html",
