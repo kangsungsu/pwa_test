@@ -8,7 +8,7 @@ const appShellFiles = [
   'images/hello-icon-192.png',
   'images/hello-icon-256.png',
   'images/hello-icon-512.png',
-  'js/main.js',
+  /*'js/main.js',
   'index.html',
   'phones/galaxy_a12_1.jpg',
   'phones/galaxy_a12_2.jpg',
@@ -44,7 +44,7 @@ const appShellFiles = [
   'fun1.html',
   'fun2.html',
   'index.html',
-  'manifest.json'
+  'manifest.json'*/
 ];
 
 
