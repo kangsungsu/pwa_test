@@ -1,7 +1,7 @@
 self.caches;
 var cacheName = "cache"
-localStorage = window.localStorage;
-localStorage.setItem('name','/phones/galaxy_a12_1.jpg')
+//localStorage = window.localStorage;
+//localStorage.setItem('name','/phones/galaxy_a12_1.jpg')
 self.addEventListener('install', function (event) {
   console.log("install!!","install")
   
