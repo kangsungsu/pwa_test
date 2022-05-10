@@ -1,3 +1,9 @@
+self.addEventListener('fetch', function (event) {
+  //   여기에 코드를 넣지 않아도 설치는 가능하다.   
+  console.log("fetch!!", event.request.url)
+  
+})
+
 
 /*const cacheName = 'Hello-World';
 const appShellFiles = [
@@ -80,7 +86,7 @@ self.addEventListener('fetch', (e) => {
 self.addEventListener('redundant', function (event) { 
   console.log("redunt",event)
 })
-
+*/
 
 /*self.caches;
 var cacheName = "cache"
@@ -153,5 +159,3 @@ self.addEventListener('fetch', function (event) {
 })
 
 const offlineFallbackPage = "offline.html"*/
-
-
