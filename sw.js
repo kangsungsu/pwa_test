@@ -1,5 +1,5 @@
 
-const cacheName = 'Hello-World';
+/*const cacheName = 'Hello-World';
 const appShellFiles = [
   'css/style.css',
   'images/hello-icon-128.png',
@@ -60,6 +60,8 @@ self.addEventListener('install', (e) => {
 
 // Fetching content using Service Worker
 self.addEventListener('fetch', (e) => {
+
+
   e.respondWith((async () => {
     const r = await caches.match(e.request);
     console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
