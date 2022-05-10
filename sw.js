@@ -5,7 +5,7 @@ self.addEventListener('fetch', function (event) {
 })
 
 
-/*const cacheName = 'Hello-World';
+const cacheName = 'Hello-World';
 const appShellFiles = [
   'css/style.css',
   'images/hello-icon-128.png',
@@ -49,7 +49,7 @@ const appShellFiles = [
   'favicon.ico',
   'fun1.html',
   'fun2.html',
-  
+  'flower.mp4',
   'manifest.json'
 ];
 
@@ -86,7 +86,7 @@ self.addEventListener('fetch', (e) => {
 self.addEventListener('redundant', function (event) { 
   console.log("redunt",event)
 })
-*/
+
 
 /*self.caches;
 var cacheName = "cache"
