@@ -14,29 +14,23 @@
   <meta name="apple-mobile-web-app-title" content="Hello World">
   <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
+
+  
 </head>
 
 <body class="fullscreen">
   <div class="container">
     <h1 class="title">fun2</h1>
+
+    <video controls>
+      <source src="flower.mp4" type="video/mp4">
+      
+  </video>
+  
+  
     <a href="index.html">back</a>
   </div>
   <script src="js/main.js"></script>
+  
 </body>
-
-<script>
-  console.log(navigator)
-  if('serviceWorker' in navigator) {
-      navigator.serviceWorker
-      .register('sw.js')
-      .then(function() { console.log("Service Worker Registered"); });
-    }
-  
-  
-</script>
-<script type="module">
-  /*import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-  const el = document.createElement('pwa-update');
-  document.body.appendChild(el);*/
-</script>
 </html>
