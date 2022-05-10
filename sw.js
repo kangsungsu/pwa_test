@@ -10,7 +10,7 @@ const appShellFiles = [
   'images/hello-icon-512.png',
   'js/main.js',
   'index.html',
-  'phones/galaxy_a12_1.jpg',
+  
   'phones/galaxy_a12_2.jpg',
   'phones/galaxy_a12_3.jpg',
   'phones/galaxy_a12_4.jpg',
@@ -72,7 +72,9 @@ self.addEventListener('fetch', (e) => {
   })());
 });
 
-
+self.addEventListener('redundant', function (event) { 
+  console.log("redunt",event)
+})
 
 
 /*self.caches;
