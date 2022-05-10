@@ -14,9 +14,9 @@ const appShellFiles = [
   'images/hello-icon-192.png',
   'images/hello-icon-256.png',
   'images/hello-icon-512.png',
-  'js/main.js',
-  'index.html',
   
+  'index.html',
+  'phones/galaxy_a12_1.jpg',
   'phones/galaxy_a12_2.jpg',
   'phones/galaxy_a12_3.jpg',
   'phones/galaxy_a12_4.jpg',
